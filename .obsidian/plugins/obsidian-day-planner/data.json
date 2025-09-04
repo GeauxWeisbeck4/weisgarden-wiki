@@ -1,0 +1,117 @@
+{
+  "snapStepMinutes": 10,
+  "progressIndicator": "mini-timeline",
+  "showTaskNotification": true,
+  "zoomLevel": 2,
+  "timelineIcon": "calendar-with-checkmark",
+  "endLabel": "All done",
+  "startHour": 0,
+  "timelineDateFormat": "YYYY-MM-DD",
+  "centerNeedle": true,
+  "plannerHeading": "Day planner",
+  "plannerHeadingLevel": 1,
+  "timelineColored": false,
+  "timelineStartColor": "#006466",
+  "timelineEndColor": "#4d194d",
+  "timestampFormat": "HH:mm",
+  "hourFormat": "H",
+  "dataviewSource": "",
+  "extendDurationUntilNext": true,
+  "defaultDurationMinutes": 30,
+  "minimalDurationMinutes": 10,
+  "showTimestampInTaskBlock": true,
+  "showUncheduledTasks": true,
+  "showUnscheduledNestedTasks": true,
+  "showNow": true,
+  "showNext": true,
+  "pluginVersion": "0.28.0",
+  "showCompletedTasks": true,
+  "showSubtasksInTaskBlocks": true,
+  "icals": [],
+  "colorOverrides": [
+    {
+      "text": "#morning",
+      "darkModeColor": "#f20d0d",
+      "color": "#eeab1b"
+    },
+    {
+      "text": "#fs1",
+      "darkModeColor": "#076924",
+      "color": "#08d94d"
+    },
+    {
+      "text": "#fs2",
+      "darkModeColor": "#043f5d",
+      "color": "#2a9de5"
+    },
+    {
+      "text": "#fs3",
+      "darkModeColor": "#0c053d",
+      "color": "#552bee"
+    },
+    {
+      "text": "#fs4",
+      "darkModeColor": "#510557",
+      "color": "#de34ea"
+    },
+    {
+      "text": "#fs5",
+      "darkModeColor": "#700058",
+      "color": "#f8209e"
+    },
+    {
+      "text": "#fs6",
+      "darkModeColor": "#045d42",
+      "color": "#28f0be"
+    },
+    {
+      "text": "#fs7",
+      "darkModeColor": "#057c85",
+      "color": "#20dce9"
+    },
+    {
+      "text": "#fs8",
+      "darkModeColor": "#033c68",
+      "color": "#2694e8"
+    },
+    {
+      "text": "#sleep",
+      "darkModeColor": "#490344",
+      "color": "#55023f"
+    },
+    {
+      "text": "#fun",
+      "darkModeColor": "#02553c",
+      "color": "#119764"
+    },
+    {
+      "text": "#plan",
+      "darkModeColor": "#042d62",
+      "color": "#087cf7"
+    },
+    {
+      "text": "#planning",
+      "darkModeColor": "#6e3737",
+      "color": "#d7f207"
+    },
+    {
+      "text": "#warmup",
+      "darkModeColor": "#286c04",
+      "color": "#5afd44"
+    },
+    {
+      "text": "#life",
+      "darkModeColor": "#065374",
+      "color": "#0ee0fb"
+    }
+  ],
+  "releaseNotes": true,
+  "taskStatusOnCreation": " ",
+  "eventFormatOnCreation": "task",
+  "sortTasksInPlanAfterEdit": true,
+  "firstDayOfWeek": "monday",
+  "multiDayRange": "3-days",
+  "showTimeTracker": false,
+  "showActiveClocks": false,
+  "rawIcals": []
+}

@@ -1,0 +1,7 @@
+{
+  "templatesFolder": "templates",
+  "excludeFolders": "",
+  "dateFormat": "MM-dd-yyyy",
+  "timeFormat": "k:m",
+  "autocompleteTrigger": ";;"
+}

@@ -1,0 +1,32 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "year": "text",
+    "category": "multitext",
+    "sprint": "multitext",
+    "dateStarted": "date",
+    "dateEnded": "date",
+    "stories": "multitext",
+    "dayOfWeek": "multitext",
+    "date": "date",
+    "dueDate": "date",
+    "progress": "number",
+    "project": "multitext",
+    "gratitudeList": "multitext",
+    "morningMood": "text",
+    "leetcodeProblems": "number",
+    "problemsCompleted": "number",
+    "solutionLink": "multitext",
+    "problemNumber": "number",
+    "problemTopics": "multitext",
+    "difficulty": "multitext",
+    "optimization": "multitext",
+    "selfSolved": "checkbox",
+    "daysCompleted": "number",
+    "problemNumbers": "multitext",
+    "numberSelfSolved": "number",
+    "complexity": "multitext"
+  }
+}

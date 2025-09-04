@@ -1,0 +1,273 @@
+{
+  "tasksFolder": "TaskNotes/Tasks",
+  "moveArchivedTasks": true,
+  "archiveFolder": "TaskNotes/Archive",
+  "taskTag": "task",
+  "taskIdentificationMethod": "tag",
+  "taskPropertyName": "",
+  "taskPropertyValue": "",
+  "excludedFolders": "",
+  "defaultTaskPriority": "normal",
+  "defaultTaskStatus": "open",
+  "taskOrgFiltersCollapsed": false,
+  "taskFilenameFormat": "zettel",
+  "storeTitleInFilename": true,
+  "customFilenameTemplate": "{title}",
+  "taskCreationDefaults": {
+    "defaultContexts": "",
+    "defaultTags": "",
+    "defaultProjects": "",
+    "useParentNoteAsProject": false,
+    "defaultTimeEstimate": 0,
+    "defaultRecurrence": "none",
+    "defaultDueDate": "none",
+    "defaultScheduledDate": "today",
+    "bodyTemplate": "",
+    "useBodyTemplate": false,
+    "defaultReminders": []
+  },
+  "calendarViewSettings": {
+    "defaultView": "dayGridMonth",
+    "customDayCount": 3,
+    "slotDuration": "00:30:00",
+    "slotMinTime": "00:00:00",
+    "slotMaxTime": "24:00:00",
+    "scrollTime": "08:00:00",
+    "firstDay": 1,
+    "timeFormat": "24",
+    "showWeekends": true,
+    "locale": "",
+    "defaultShowScheduled": true,
+    "defaultShowDue": true,
+    "defaultShowDueWhenScheduled": true,
+    "defaultShowTimeEntries": true,
+    "defaultShowRecurring": true,
+    "defaultShowICSEvents": true,
+    "enableTimeblocking": true,
+    "defaultShowTimeblocks": true,
+    "nowIndicator": true,
+    "selectMirror": true,
+    "weekNumbers": true,
+    "showTodayHighlight": true
+  },
+  "pomodoroWorkDuration": 90,
+  "pomodoroShortBreakDuration": 5,
+  "pomodoroLongBreakDuration": 15,
+  "pomodoroLongBreakInterval": 4,
+  "pomodoroAutoStartBreaks": true,
+  "pomodoroAutoStartWork": false,
+  "pomodoroNotifications": true,
+  "pomodoroSoundEnabled": true,
+  "pomodoroSoundVolume": 50,
+  "pomodoroStorageLocation": "plugin",
+  "enableTaskLinkOverlay": true,
+  "enableInstantTaskConvert": true,
+  "useDefaultsOnInstantConvert": true,
+  "enableNaturalLanguageInput": true,
+  "nlpDefaultToScheduled": true,
+  "statusSuggestionTrigger": "*",
+  "singleClickAction": "edit",
+  "doubleClickAction": "openNote",
+  "inlineTaskConvertFolder": "{{currentNotePath}}",
+  "disableNoteIndexing": false,
+  "suggestionDebounceMs": 0,
+  "fieldMapping": {
+    "title": "title",
+    "status": "status",
+    "priority": "priority",
+    "due": "due",
+    "scheduled": "scheduled",
+    "contexts": "contexts",
+    "projects": "projects",
+    "timeEstimate": "timeEstimate",
+    "completedDate": "completedDate",
+    "dateCreated": "dateCreated",
+    "dateModified": "dateModified",
+    "recurrence": "recurrence",
+    "archiveTag": "archived",
+    "timeEntries": "timeEntries",
+    "completeInstances": "complete_instances",
+    "pomodoros": "pomodoros",
+    "icsEventId": "icsEventId",
+    "icsEventTag": "ics_event",
+    "reminders": "reminders"
+  },
+  "customStatuses": [
+    {
+      "id": "none",
+      "value": "none",
+      "label": "None",
+      "color": "#cccccc",
+      "isCompleted": false,
+      "order": 0
+    },
+    {
+      "id": "open",
+      "value": "open",
+      "label": "Open",
+      "color": "#808080",
+      "isCompleted": false,
+      "order": 1
+    },
+    {
+      "id": "in-progress",
+      "value": "in-progress",
+      "label": "In progress",
+      "color": "#0066cc",
+      "isCompleted": false,
+      "order": 2
+    },
+    {
+      "id": "done",
+      "value": "done",
+      "label": "Done",
+      "color": "#00aa00",
+      "isCompleted": true,
+      "order": 3
+    }
+  ],
+  "customPriorities": [
+    {
+      "id": "none",
+      "value": "none",
+      "label": "None",
+      "color": "#cccccc",
+      "weight": 0
+    },
+    {
+      "id": "low",
+      "value": "low",
+      "label": "Low",
+      "color": "#00aa00",
+      "weight": 1
+    },
+    {
+      "id": "normal",
+      "value": "normal",
+      "label": "Normal",
+      "color": "#ffaa00",
+      "weight": 2
+    },
+    {
+      "id": "high",
+      "value": "high",
+      "label": "High",
+      "color": "#ff0000",
+      "weight": 3
+    }
+  ],
+  "recurrenceMigrated": true,
+  "showTrackedTasksInStatusBar": false,
+  "autoStopTimeTrackingOnComplete": true,
+  "autoStopTimeTrackingNotification": true,
+  "showProjectSubtasks": true,
+  "showExpandableSubtasks": true,
+  "projectSubtasksPosition": "bottom",
+  "subtaskChevronPosition": "right",
+  "viewsButtonAlignment": "right",
+  "hideCompletedFromOverdue": true,
+  "icsIntegration": {
+    "defaultNoteTemplate": "",
+    "defaultNoteFolder": "",
+    "icsNoteFilenameFormat": "title",
+    "customICSNoteFilenameTemplate": "{title}"
+  },
+  "savedViews": [],
+  "enableNotifications": true,
+  "notificationType": "system",
+  "enableAPI": false,
+  "apiPort": 8080,
+  "apiAuthToken": "",
+  "webhooks": [],
+  "userFields": [],
+  "defaultVisibleProperties": [
+    "status",
+    "priority",
+    "due",
+    "scheduled",
+    "projects",
+    "contexts",
+    "tags",
+    "completedDate"
+  ],
+  "maintainDueDateOffsetInRecurring": false,
+  "pomodoroState": {
+    "isRunning": true,
+    "timeRemaining": 5400,
+    "currentSession": {
+      "id": "1757001661622",
+      "taskPath": "journal/2025/september-2025/[[20250904_fs2_s29]].md",
+      "startTime": "2025-09-04T12:01:01.622-04:00",
+      "plannedDuration": 90,
+      "type": "work",
+      "completed": false,
+      "activePeriods": [
+        {
+          "startTime": "2025-09-04T12:01:01.622-04:00"
+        }
+      ]
+    }
+  },
+  "lastPomodoroDate": "2025-09-04",
+  "pomodoroHistory": [
+    {
+      "id": "1756844290011",
+      "startTime": "2025-09-02T16:18:10.011-04:00",
+      "endTime": "2025-09-02T22:51:38.003-04:00",
+      "plannedDuration": 80,
+      "type": "work",
+      "taskPath": "taskNotes/Tasks/20250901_fs1_s29.md",
+      "completed": true,
+      "activePeriods": [
+        {
+          "startTime": "2025-09-02T16:18:10.011-04:00",
+          "endTime": "2025-09-02T22:51:38.003-04:00"
+        }
+      ]
+    },
+    {
+      "id": "1756867901360",
+      "startTime": "2025-09-02T22:51:41.360-04:00",
+      "endTime": "2025-09-02T22:56:41.365-04:00",
+      "plannedDuration": 5,
+      "type": "short-break",
+      "completed": true,
+      "activePeriods": [
+        {
+          "startTime": "2025-09-02T22:51:41.360-04:00",
+          "endTime": "2025-09-02T22:56:41.365-04:00"
+        }
+      ]
+    },
+    {
+      "id": "1756987221640",
+      "startTime": "2025-09-04T08:00:21.640-04:00",
+      "endTime": "2025-09-04T09:30:21.646-04:00",
+      "plannedDuration": 90,
+      "type": "work",
+      "taskPath": "journal/2025/september-2025/[[20250904_fs1_s29]].md",
+      "completed": true,
+      "activePeriods": [
+        {
+          "startTime": "2025-09-04T08:00:21.640-04:00",
+          "endTime": "2025-09-04T09:30:21.646-04:00"
+        }
+      ]
+    },
+    {
+      "id": "1756992624347",
+      "startTime": "2025-09-04T09:30:24.347-04:00",
+      "endTime": "2025-09-04T09:35:24.351-04:00",
+      "plannedDuration": 5,
+      "type": "short-break",
+      "completed": true,
+      "activePeriods": [
+        {
+          "startTime": "2025-09-04T09:30:24.347-04:00",
+          "endTime": "2025-09-04T09:35:24.351-04:00"
+        }
+      ]
+    }
+  ],
+  "lastSelectedTaskPath": "journal/2025/september-2025/[[20250904_fs2_s29]].md"
+}

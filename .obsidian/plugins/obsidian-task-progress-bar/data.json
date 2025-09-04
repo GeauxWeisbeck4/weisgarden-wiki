@@ -1,0 +1,937 @@
+{
+  "progressBarDisplayMode": "both",
+  "supportHoverToShowProgressInfo": true,
+  "addProgressBarToNonTaskBullet": true,
+  "addTaskProgressBarToHeading": true,
+  "enableProgressbarInReadingMode": true,
+  "countSubLevel": true,
+  "displayMode": "percentage",
+  "customFormat": "[{{COMPLETED}}/{{TOTAL}}]",
+  "showPercentage": true,
+  "customizeProgressRanges": true,
+  "progressRanges": [
+    {
+      "min": 0,
+      "max": 20,
+      "text": "Just started {{PROGRESS}}%"
+    },
+    {
+      "min": 20,
+      "max": 40,
+      "text": "Making progress {{PROGRESS}}% "
+    },
+    {
+      "min": 40,
+      "max": 60,
+      "text": "Half way {{PROGRESS}}% "
+    },
+    {
+      "min": 60,
+      "max": 80,
+      "text": "Good progress {{PROGRESS}}% "
+    },
+    {
+      "min": 80,
+      "max": 100,
+      "text": "Almost there {{PROGRESS}}% "
+    }
+  ],
+  "allowCustomProgressGoal": true,
+  "hideProgressBarBasedOnConditions": false,
+  "hideProgressBarTags": "no-progress,hide-progress",
+  "hideProgressBarFolders": "",
+  "hideProgressBarMetadata": "hide-progress-bar",
+  "showProgressBarBasedOnHeading": "",
+  "projectViewDefaultMode": "list",
+  "projectTreeAutoExpand": true,
+  "projectTreeShowEmptyFolders": true,
+  "projectPathSeparator": "/",
+  "autoCompleteParent": true,
+  "markParentInProgressWhenPartiallyComplete": true,
+  "taskStatuses": {
+    "completed": "x",
+    "inProgress": "/",
+    "abandoned": "-",
+    "planned": ">|<",
+    "notStarted": " |!|?|i|S|*|b|“|n|l|I|p|c|u|d"
+  },
+  "countOtherStatusesAs": "notStarted",
+  "excludeTaskMarks": "",
+  "useOnlyCountMarks": false,
+  "onlyCountTaskMarks": "x|X|>|/",
+  "enableTaskStatusSwitcher": true,
+  "enableCustomTaskMarks": false,
+  "enableTextMarkInSourceMode": false,
+  "enableCycleCompleteStatus": true,
+  "taskStatusCycle": [
+    "To Do",
+    "In Progress",
+    "Done",
+    "Cancelled",
+    "Rescheduled",
+    "Scheduled",
+    "Important",
+    "Question",
+    "Infomation",
+    "Amount",
+    "Star",
+    "Bookmark",
+    "Quote",
+    "Note",
+    "Location",
+    "Idea",
+    "Pro",
+    "Con",
+    "Up",
+    "Down"
+  ],
+  "taskStatusMarks": {
+    "To Do": " ",
+    "In Progress": "/",
+    "Done": "x",
+    "Cancelled": "-",
+    "Rescheduled": ">",
+    "Scheduled": "<",
+    "Important": "!",
+    "Question": "?",
+    "Infomation": "i",
+    "Amount": "S",
+    "Star": "*",
+    "Bookmark": "b",
+    "Quote": "“",
+    "Note": "n",
+    "Location": "l",
+    "Idea": "I",
+    "Pro": "p",
+    "Con": "c",
+    "Up": "u",
+    "Down": "d"
+  },
+  "excludeMarksFromCycle": [
+    "Rescheduled",
+    "Scheduled",
+    "Important",
+    "Question",
+    "Infomation",
+    "Amount",
+    "Star",
+    "Bookmark",
+    "Quote",
+    "Note",
+    "Location",
+    "Idea",
+    "Pro",
+    "Con",
+    "Up",
+    "Down"
+  ],
+  "enableTaskGeniusIcons": false,
+  "enablePriorityPicker": true,
+  "enablePriorityKeyboardShortcuts": true,
+  "enableDatePicker": true,
+  "recurrenceDateBase": "due",
+  "taskFilter": {
+    "enableTaskFilter": false,
+    "presetTaskFilters": []
+  },
+  "taskGutter": {
+    "enableTaskGutter": true
+  },
+  "completedTaskMover": {
+    "enableCompletedTaskMover": true,
+    "taskMarkerType": "date",
+    "versionMarker": "version 1.0",
+    "dateMarker": "archived on {{date}}",
+    "customMarker": "moved {{DATE:YYYY-MM-DD HH:mm}}",
+    "treatAbandonedAsCompleted": true,
+    "completeAllMovedTasks": true,
+    "withCurrentFileLink": true,
+    "enableAutoMove": true,
+    "defaultTargetFile": "Archive.md",
+    "defaultInsertionMode": "end",
+    "defaultHeadingName": "Completed Tasks",
+    "enableIncompletedTaskMover": true,
+    "incompletedTaskMarkerType": "date",
+    "incompletedVersionMarker": "version 1.0",
+    "incompletedDateMarker": "moved on {{date}}",
+    "incompletedCustomMarker": "moved {{DATE:YYYY-MM-DD HH:mm}}",
+    "withCurrentFileLinkForIncompleted": true,
+    "enableIncompletedAutoMove": true,
+    "incompletedDefaultTargetFile": "Backlog.md",
+    "incompletedDefaultInsertionMode": "end",
+    "incompletedDefaultHeadingName": "Incomplete Tasks"
+  },
+  "quickCapture": {
+    "enableQuickCapture": true,
+    "targetFile": "QuickCapture.md",
+    "placeholder": "Capture your thoughts...",
+    "appendToFile": "append",
+    "targetType": "fixed",
+    "targetHeading": "",
+    "dailyNoteSettings": {
+      "format": "YYYY-MM-DD",
+      "folder": "",
+      "template": ""
+    },
+    "enableMinimalMode": true,
+    "minimalModeSettings": {
+      "suggestTrigger": "/"
+    }
+  },
+  "workflow": {
+    "enableWorkflow": true,
+    "autoAddTimestamp": true,
+    "timestampFormat": "YYYY-MM-DD HH:mm:ss",
+    "removeTimestampOnTransition": false,
+    "calculateSpentTime": true,
+    "spentTimeFormat": "HH:mm:ss",
+    "calculateFullSpentTime": true,
+    "autoRemoveLastStageMarker": true,
+    "autoAddNextTask": true,
+    "definitions": [
+      {
+        "id": "project_workflow",
+        "name": "Project Workflow",
+        "description": "Standard project management workflow",
+        "stages": [
+          {
+            "id": "planning",
+            "name": "Planning",
+            "type": "linear",
+            "next": "in_progress"
+          },
+          {
+            "id": "in_progress",
+            "name": "In Progress",
+            "type": "cycle",
+            "subStages": [
+              {
+                "id": "development",
+                "name": "Development",
+                "next": "testing"
+              },
+              {
+                "id": "testing",
+                "name": "Testing",
+                "next": "development"
+              }
+            ],
+            "canProceedTo": [
+              "review",
+              "cancelled"
+            ]
+          },
+          {
+            "id": "review",
+            "name": "Review",
+            "type": "cycle",
+            "canProceedTo": [
+              "in_progress",
+              "completed"
+            ]
+          },
+          {
+            "id": "completed",
+            "name": "Completed",
+            "type": "terminal"
+          },
+          {
+            "id": "cancelled",
+            "name": "Cancelled",
+            "type": "terminal"
+          }
+        ],
+        "metadata": {
+          "version": "1.0",
+          "created": "2024-03-20",
+          "lastModified": "2024-03-20"
+        }
+      }
+    ]
+  },
+  "useDailyNotePathAsDate": false,
+  "dailyNoteFormat": "yyyy-MM-dd",
+  "useAsDateType": "due",
+  "dailyNotePath": "",
+  "preferMetadataFormat": "tasks",
+  "projectTagPrefix": {
+    "tasks": "project",
+    "dataview": "project"
+  },
+  "contextTagPrefix": {
+    "tasks": "@",
+    "dataview": "context"
+  },
+  "areaTagPrefix": {
+    "tasks": "area",
+    "dataview": "area"
+  },
+  "fileMetadataInheritance": {
+    "enabled": true,
+    "inheritFromFrontmatter": true,
+    "inheritFromFrontmatterForSubtasks": true
+  },
+  "projectConfig": {
+    "enableEnhancedProject": true,
+    "pathMappings": [],
+    "metadataConfig": {
+      "metadataKey": "project",
+      "enabled": true,
+      "detectionMethods": [
+        {
+          "type": "metadata",
+          "propertyKey": "project",
+          "enabled": false
+        },
+        {
+          "type": "tag",
+          "propertyKey": "project",
+          "enabled": false
+        },
+        {
+          "type": "link",
+          "propertyKey": "category",
+          "linkFilter": "",
+          "enabled": false
+        }
+      ]
+    },
+    "configFile": {
+      "fileName": "project.md",
+      "searchRecursively": true,
+      "enabled": true
+    },
+    "metadataMappings": [],
+    "defaultProjectNaming": {
+      "strategy": "filename",
+      "stripExtension": false,
+      "enabled": true
+    }
+  },
+  "fileParsingConfig": {
+    "enableFileMetadataParsing": true,
+    "metadataFieldsToParseAsTasks": [
+      "dueDate",
+      "todo",
+      "complete",
+      "task"
+    ],
+    "enableTagBasedTaskParsing": true,
+    "tagsToParseAsTasks": [
+      "#todo",
+      "#task",
+      "#action",
+      "#due"
+    ],
+    "taskContentFromMetadata": "title",
+    "defaultTaskStatus": " ",
+    "enableWorkerProcessing": true,
+    "enableMtimeOptimization": true,
+    "mtimeCacheSize": 10000
+  },
+  "useRelativeTimeForDate": false,
+  "ignoreHeading": "",
+  "focusHeading": "",
+  "enableView": true,
+  "enableInlineEditor": true,
+  "enableDynamicMetadataPositioning": true,
+  "defaultViewMode": "list",
+  "globalFilterRules": {},
+  "viewConfiguration": [
+    {
+      "id": "inbox",
+      "name": "Inbox",
+      "icon": "inbox",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": true,
+      "filterRules": {},
+      "filterBlanks": false
+    },
+    {
+      "id": "forecast",
+      "name": "Forecast",
+      "icon": "calendar-days",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": true,
+      "filterRules": {},
+      "filterBlanks": false,
+      "specificConfig": {
+        "viewType": "forecast",
+        "hideWeekends": false
+      }
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "icon": "folders",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": false,
+      "filterRules": {},
+      "filterBlanks": false
+    },
+    {
+      "id": "tags",
+      "name": "Tags",
+      "icon": "tag",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": false,
+      "filterRules": {},
+      "filterBlanks": false
+    },
+    {
+      "id": "flagged",
+      "name": "Flagged",
+      "icon": "flag",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": true,
+      "filterRules": {},
+      "filterBlanks": false
+    },
+    {
+      "id": "review",
+      "name": "Review",
+      "icon": "eye",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": false,
+      "filterRules": {},
+      "filterBlanks": false
+    },
+    {
+      "id": "calendar",
+      "name": "Events",
+      "icon": "calendar",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": false,
+      "filterRules": {},
+      "filterBlanks": false,
+      "specificConfig": {
+        "viewType": "calendar",
+        "hideWeekends": false
+      }
+    },
+    {
+      "id": "kanban",
+      "name": "Status",
+      "icon": "kanban",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": false,
+      "filterRules": {},
+      "filterBlanks": false,
+      "specificConfig": {
+        "viewType": "kanban",
+        "showCheckbox": true,
+        "hideEmptyColumns": false,
+        "defaultSortField": "priority",
+        "defaultSortOrder": "desc",
+        "groupBy": "status"
+      }
+    },
+    {
+      "id": "gantt",
+      "name": "Plan",
+      "icon": "chart-gantt",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": false,
+      "filterRules": {},
+      "filterBlanks": false,
+      "specificConfig": {
+        "viewType": "gantt",
+        "showTaskLabels": true,
+        "useMarkdownRenderer": true
+      }
+    },
+    {
+      "id": "habit",
+      "name": "Habit",
+      "icon": "calendar-clock",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": false,
+      "filterRules": {},
+      "filterBlanks": false
+    },
+    {
+      "id": "table",
+      "name": "Table",
+      "icon": "table",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": false,
+      "filterRules": {},
+      "filterBlanks": false,
+      "specificConfig": {
+        "viewType": "table",
+        "enableTreeView": true,
+        "enableLazyLoading": true,
+        "pageSize": 50,
+        "enableInlineEditing": true,
+        "visibleColumns": [
+          "status",
+          "content",
+          "priority",
+          "dueDate",
+          "startDate",
+          "scheduledDate",
+          "tags",
+          "project",
+          "context",
+          "filePath"
+        ],
+        "columnWidths": {
+          "status": 80,
+          "content": 300,
+          "priority": 100,
+          "dueDate": 120,
+          "startDate": 120,
+          "scheduledDate": 120,
+          "createdDate": 120,
+          "completedDate": 120,
+          "tags": 150,
+          "project": 150,
+          "context": 120,
+          "recurrence": 120,
+          "estimatedTime": 120,
+          "actualTime": 120,
+          "filePath": 200
+        },
+        "sortableColumns": true,
+        "resizableColumns": true,
+        "showRowNumbers": true,
+        "enableRowSelection": true,
+        "enableMultiSelect": true,
+        "defaultSortField": "",
+        "defaultSortOrder": "asc"
+      }
+    },
+    {
+      "id": "quadrant",
+      "name": "Matrix",
+      "icon": "layout-grid",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": false,
+      "filterRules": {},
+      "filterBlanks": false,
+      "specificConfig": {
+        "viewType": "quadrant",
+        "hideEmptyQuadrants": false,
+        "autoUpdatePriority": true,
+        "autoUpdateTags": true,
+        "showTaskCount": true,
+        "defaultSortField": "priority",
+        "defaultSortOrder": "desc",
+        "urgentTag": "#urgent",
+        "importantTag": "#important",
+        "urgentThresholdDays": 3,
+        "usePriorityForClassification": false,
+        "urgentPriorityThreshold": 4,
+        "importantPriorityThreshold": 3,
+        "customQuadrantColors": false,
+        "quadrantColors": {
+          "urgentImportant": "#dc3545",
+          "notUrgentImportant": "#28a745",
+          "urgentNotImportant": "#ffc107",
+          "notUrgentNotImportant": "#6c757d"
+        }
+      }
+    }
+  ],
+  "reviewSettings": {},
+  "rewards": {
+    "enableRewards": false,
+    "rewardItems": [
+      {
+        "id": "reward-tea",
+        "name": "Drink a cup of good tea",
+        "occurrence": "common",
+        "inventory": -1
+      },
+      {
+        "id": "reward-series-episode",
+        "name": "Watch an episode of a favorite series",
+        "occurrence": "rare",
+        "inventory": 16
+      },
+      {
+        "id": "reward-champagne-project",
+        "name": "Play a game",
+        "occurrence": "legendary",
+        "inventory": 1,
+        "condition": "#project AND #milestone"
+      },
+      {
+        "id": "reward-chocolate-quick",
+        "name": "Eat a piece of chocolate",
+        "occurrence": "common",
+        "inventory": 10,
+        "condition": "#quickwin",
+        "imageUrl": ""
+      }
+    ],
+    "occurrenceLevels": [
+      {
+        "name": "common",
+        "chance": 70
+      },
+      {
+        "name": "rare",
+        "chance": 25
+      },
+      {
+        "name": "legendary",
+        "chance": 5
+      }
+    ],
+    "showRewardType": "modal"
+  },
+  "habit": {
+    "enableHabits": true,
+    "habits": [
+      {
+        "id": "1756983426786khlvsc6",
+        "name": "Freewrite Session",
+        "description": "A 10 minute freewriting session each day",
+        "icon": "lucide-clipboard-pen-line",
+        "type": "daily",
+        "property": "freewritingSession"
+      },
+      {
+        "id": "1756983475824b5t710v",
+        "name": "LeetCode Problems",
+        "description": "Complete 5 LeetCode problems a day",
+        "icon": "lucide-code-square",
+        "type": "count",
+        "property": "leetcodeProblems",
+        "min": 0,
+        "max": 5,
+        "notice": "5",
+        "countUnit": "problems"
+      },
+      {
+        "id": "1756983539771vxi53zu",
+        "name": "Morning Mood",
+        "description": "Check my morning mood and note it in daily note",
+        "icon": "lucide-smile",
+        "type": "mapping",
+        "property": "morningMood",
+        "mapping": {
+          "1": "😊",
+          "2": "😐",
+          "3": "😔"
+        }
+      },
+      {
+        "id": "17569835848760yh5bte",
+        "name": "Focus Sessions",
+        "description": "Pomodoro focus sessions completed each day (4)",
+        "icon": "circle-check",
+        "type": "scheduled",
+        "events": [
+          {
+            "name": "Focus Session One",
+            "details": "First focus session each day"
+          },
+          {
+            "name": "Focus Session Two",
+            "details": "Second focus session of day"
+          },
+          {
+            "name": "Focus Session Three",
+            "details": "Third focus session of day"
+          },
+          {
+            "name": "Focus Session Four",
+            "details": "Fourth focus session of day"
+          }
+        ],
+        "propertiesMap": {
+          "Focus Session One": "fsone",
+          "Focus Session Two": "fstwo",
+          "Focus Session Three": "fsthree",
+          "Focus Session Four": "fsfour"
+        }
+      },
+      {
+        "id": "1756983666939cixbvmn",
+        "name": "Swallow the Frog",
+        "description": "The hardest task of the day that needs to be completed first",
+        "icon": "task-genius",
+        "type": "daily",
+        "property": "frog2swallow"
+      },
+      {
+        "id": "1756983734130hxjo1e4",
+        "name": "Main Goal",
+        "description": "The primary goal for each day",
+        "icon": "circle-check",
+        "type": "daily",
+        "property": "mainGoal"
+      },
+      {
+        "id": "1756983749989i8s8rri",
+        "name": "Gratitude List",
+        "description": "Make a daily gratitude list each day in the daily note",
+        "icon": "lucide-thumbs-up",
+        "type": "daily",
+        "property": "gratitudeList"
+      },
+      {
+        "id": "1756983813077vz1bbq4",
+        "name": "Daily Sprint Review",
+        "description": "Review what was completed that day for the sprint",
+        "icon": "lucide-person-standing",
+        "type": "daily",
+        "property": "sprintReview"
+      }
+    ]
+  },
+  "filterConfig": {
+    "enableSavedFilters": true,
+    "savedConfigs": []
+  },
+  "sortTasks": true,
+  "sortCriteria": [
+    {
+      "field": "status",
+      "order": "asc"
+    },
+    {
+      "field": "priority",
+      "order": "asc"
+    },
+    {
+      "field": "dueDate",
+      "order": "asc"
+    }
+  ],
+  "autoDateManager": {
+    "enabled": true,
+    "manageCompletedDate": true,
+    "manageStartDate": true,
+    "manageCancelledDate": true,
+    "completedDateFormat": "YYYY-MM-DD",
+    "startDateFormat": "YYYY-MM-DD",
+    "cancelledDateFormat": "YYYY-MM-DD",
+    "completedDateMarker": "✅",
+    "startDateMarker": "🚀",
+    "cancelledDateMarker": "❌"
+  },
+  "betaTest": {
+    "enableBaseView": true
+  },
+  "icsIntegration": {
+    "sources": [],
+    "globalRefreshInterval": 60,
+    "maxCacheAge": 24,
+    "enableBackgroundRefresh": false,
+    "networkTimeout": 30,
+    "maxEventsPerSource": 1000,
+    "showInCalendar": false,
+    "showInTaskLists": false,
+    "defaultEventColor": "#3b82f6"
+  },
+  "timelineSidebar": {
+    "enableTimelineSidebar": true,
+    "autoOpenOnStartup": false,
+    "showCompletedTasks": true,
+    "focusModeByDefault": true,
+    "maxEventsToShow": 100,
+    "quickInputCollapsed": false,
+    "quickInputDefaultHeight": 150,
+    "quickInputAnimationDuration": 300,
+    "quickInputCollapseOnCapture": false,
+    "quickInputShowQuickActions": true
+  },
+  "fileFilter": {
+    "enabled": false,
+    "mode": "blacklist",
+    "rules": []
+  },
+  "onCompletion": {
+    "enableOnCompletion": true,
+    "defaultArchiveFile": "Archive/Completed Tasks.md",
+    "defaultArchiveSection": "Completed Tasks",
+    "showAdvancedOptions": true
+  },
+  "timeParsing": {
+    "enabled": true,
+    "supportedLanguages": [
+      "en",
+      "zh"
+    ],
+    "dateKeywords": {
+      "start": [
+        "start",
+        "begin",
+        "from",
+        "starting",
+        "begins",
+        "开始",
+        "从",
+        "起始",
+        "起",
+        "始于",
+        "自"
+      ],
+      "due": [
+        "due",
+        "deadline",
+        "by",
+        "until",
+        "before",
+        "expires",
+        "ends",
+        "截止",
+        "到期",
+        "之前",
+        "期限",
+        "最晚",
+        "结束",
+        "终止",
+        "完成于"
+      ],
+      "scheduled": [
+        "scheduled",
+        "on",
+        "at",
+        "planned",
+        "set for",
+        "arranged",
+        "安排",
+        "计划",
+        "在",
+        "定于",
+        "预定",
+        "约定",
+        "设定"
+      ]
+    },
+    "removeOriginalText": true,
+    "perLineProcessing": true,
+    "realTimeReplacement": true
+  },
+  "taskTimer": {
+    "enabled": true,
+    "metadataDetection": {
+      "frontmatter": "task-timer",
+      "folders": [
+        "journal",
+        "sprints",
+        "taskNotes",
+        "projects"
+      ],
+      "tags": [
+        "timer",
+        "tracked"
+      ]
+    },
+    "timeFormat": "{h}hrs {m}mins",
+    "blockRefPrefix": "timer"
+  },
+  "enableCustomDateFormats": true,
+  "customDateFormats": [],
+  "onboarding": {
+    "completed": true,
+    "version": "9.7.6",
+    "configMode": "power",
+    "skipOnboarding": false,
+    "completedAt": "2025-09-02T19:50:14.170Z"
+  },
+  "enhancedProjectData": {
+    "fileProjectMap": {},
+    "fileMetadataMap": {
+      "sprints/sprint-29/sprint-29.md": {
+        "tags": [
+          "sprint-29",
+          "sprints"
+        ],
+        "aliases": [
+          "Sprint 29"
+        ],
+        "uuid": "0003-0129-SPRNTDIR-SPRINT29",
+        "dateStarted": "2025-08-25",
+        "dateEnded": "2025-09-07",
+        "stories": null
+      },
+      "projects/weisgarden/weisgarden.md": {
+        "tags": [
+          "weisgarden",
+          "projects",
+          "digital-garden"
+        ],
+        "aliases": [
+          "WeisGarden"
+        ],
+        "description": "My digital garden website",
+        "startDate": "2025-08-24",
+        "dueDate": "2025-10-05",
+        "sprint": [
+          "sprint-29"
+        ],
+        "uuid": "0005-0100-WEISDIR-WEISGARDEN"
+      },
+      "notes/notes.md": {
+        "tags": [
+          "notes-catalog",
+          "home"
+        ],
+        "aliases": [
+          "Notes Catalog"
+        ],
+        "uuid": "0002-020000-NOTEDIR-NOTEHOME"
+      },
+      "notes/javascript/liquidjs/liquidjs.md": {
+        "tags": [
+          "javascript",
+          "notes-catalog",
+          "note",
+          "liquidjs"
+        ],
+        "aliases": [
+          "Liquid.js"
+        ],
+        "uuid": "0002-010100-NOTESUB-LQJSDIR"
+      },
+      "notes/javascript/liquidjs/intro-to-liquid.md": {
+        "tags": [
+          "javascript",
+          "liquidjs",
+          "note"
+        ]
+      },
+      "notes/javascript/javascript.md": {
+        "tags": [
+          "javascript",
+          "notes-catalog",
+          "note-category"
+        ],
+        "aliases": [
+          "JavaScript Notes"
+        ],
+        "uuid": "0002-010000-NOTECTGR-JSNOTEHOME",
+        "category": [
+          "JavaScript"
+        ]
+      },
+      "journal/2025/2025.md": {
+        "tags": [
+          "journal",
+          "daily",
+          "2025-entries"
+        ],
+        "uuid": "0001-010000-DIRJRNL-DIR2025",
+        "year": "2025"
+      }
+    },
+    "projectConfigMap": {}
+  }
+}

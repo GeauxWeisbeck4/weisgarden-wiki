@@ -1,0 +1,396 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "2d87573f6f4259d8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0b8557ecac99ae54",
+            "type": "leaf",
+            "state": {
+              "type": "tasknotes-pomodoro-view",
+              "state": {},
+              "icon": "clock",
+              "title": "Pomodoro"
+            }
+          },
+          {
+            "id": "56b24c457dd5cb53",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "leetcode/2025/september-2025/week-one_0901_0907/2704. To Be or Not To Be.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2704. To Be or Not To Be"
+            }
+          },
+          {
+            "id": "92a5c5a4c99d85f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journal/2025/september-2025/2025-09-04.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2025-09-04"
+            }
+          },
+          {
+            "id": "e9c5a1e807ab8bd5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journal/2025/september-2025/[[20250904_fs2_s29]].md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "[[20250904_fs2_s29]]"
+            }
+          },
+          {
+            "id": "82b85c886290e7b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journal/2025/september-2025/2025-09-04.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2025-09-04"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "41f60a4aa473598e",
+    "type": "split",
+    "children": [
+      {
+        "id": "9fab76e7457c1b83",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8c998f6033de89e0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "b0f5386d26bb51c9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#leetcode",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "79228595b1710f8f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "02896c99cfd4e773",
+    "type": "split",
+    "children": [
+      {
+        "id": "a34ccb27655dedd0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "362bb4fc2dc42ce2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "taskNotes/Tasks/20250901_fs1_s29.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 20250901_fs1_s29"
+            }
+          },
+          {
+            "id": "366b228b010f7e1c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b11d4a4634b200d0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "taskNotes/Tasks/20250901_fs1_s29.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 20250901_fs1_s29"
+            }
+          },
+          {
+            "id": "6a98ca71cf9b475c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "taskNotes/Tasks/20250901_fs1_s29.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 20250901_fs1_s29"
+            }
+          },
+          {
+            "id": "2c2700773304c362",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "6bbb3c7cd9344849",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "cae88730612d32e4",
+            "type": "leaf",
+            "state": {
+              "type": "chronology-calendar-view",
+              "state": {},
+              "icon": "clock",
+              "title": "Chronology"
+            }
+          },
+          {
+            "id": "29aebdd95f4cf4d2",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
+            }
+          },
+          {
+            "id": "f86ad7508e0b70a8",
+            "type": "leaf",
+            "state": {
+              "type": "tg-timeline-sidebar-view",
+              "state": {},
+              "icon": "calendar-clock",
+              "title": "Timeline"
+            }
+          },
+          {
+            "id": "ee52bac6628d0316",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 9
+      }
+    ],
+    "direction": "horizontal",
+    "width": 559.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "publish:Publish changes...": false,
+      "random-note:Open random note": false,
+      "zk-prefixer:Create new unique note": false,
+      "workspaces:Manage workspace layouts": false,
+      "dbfolder:Create a new database table": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-kanban:Create new board": false,
+      "obsidian-git:Open Git source control": false,
+      "homepage:Open homepage": false,
+      "chronology:Open Chronology": false,
+      "obsidian-day-planner:Open Timeline": false,
+      "obsidian-day-planner:Open Multi-Day View": false,
+      "obsidian-import-json:JSON/CSV Importer": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "janitor:Janitor: scan vault": false,
+      "tasknotes:Open mini calendar": false,
+      "tasknotes:Open advanced calendar": false,
+      "tasknotes:Open task list": false,
+      "tasknotes:Open notes": false,
+      "tasknotes:Open agenda": false,
+      "tasknotes:Open kanban board": false,
+      "tasknotes:Open pomodoro": false,
+      "tasknotes:Open pomodoro stats": false,
+      "tasknotes:Create new task": false,
+      "obsidian-task-progress-bar:Open Task Genius view": false,
+      "github-sync:Sync with Remote": false
+    }
+  },
+  "active": "ee52bac6628d0316",
+  "lastOpenFiles": [
+    "weisgarden-wiki/README.md",
+    "weisgarden-wiki/LICENSE.md",
+    "weisgarden-wiki",
+    "journal/2025/september-2025/2025-09-04.md",
+    "journal/2025/september-2025/[[20250904_fs2_s29]].md",
+    "journal/2025/september-2025/[[20250904_fs3_s29]].md",
+    "TaskNotes/Archive",
+    "TaskNotes/Tasks/DSA & System Design Learning.md",
+    "TaskNotes/Tasks/Finish LeetCode Problems.md",
+    "TaskNotes/Tasks",
+    "TaskNotes",
+    "journal/2025/september-2025/Style site.md",
+    "leetcode/2025/september-2025/week-one_0901_0907/2704. To Be or Not To Be.md",
+    "journal/2025/september-2025/2025-09-02.md",
+    "TaskNotes/Archive/[[20250904_fs1_s29]] 1.md",
+    "[[20250904_fs2_s29.md",
+    "leetcode/2025/september-2025/week-one_0901_0907/3516. Find Closest Person.md",
+    "leetcode/2025/september-2025/week-one_0901_0907/week-one_0901_0907.md",
+    "templates/leetcode-problem.md",
+    "projects/30-days-of-projects/day-one_document-tree-generator.md",
+    "leetcode/2025/september-2025/september-2025.md",
+    "leetcode/leetcode.md",
+    "leetcode/2025/september-2025/week-one_0901_0907",
+    "leetcode/2025/september-2025",
+    "leetcode/2025",
+    "leetcode",
+    "TaskNotes/Archive/20250901_fs1_s29 1.md",
+    "templates/daily-note.md",
+    "notes/notes.md",
+    "projects/30-days-of-projects/day-two_personal-task-tracker.md",
+    "notes/javascript/liquidjs/liquidjs.md",
+    "projects/30-days-of-projects/30-days-of-projects.md",
+    "projects/30-days-of-projects",
+    "taskNotes/Archive",
+    "090125_fs1.md",
+    "projects/weisgarden/weisgarden.md"
+  ]
+}
